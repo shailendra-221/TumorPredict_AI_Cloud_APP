@@ -1,5 +1,7 @@
-export const API_URL = import.meta.env.VITE_API_URL || 'http://localhost:5000/api'
-export const MAX_FILE_SIZE = import.meta.env.VITE_MAX_FILE_SIZE || 50
+export const API_URL = import.meta.env.VITE_API_URL || 'https://tumorpredict-ai-cloud-app.onrender.com/api'
+
+export const MAX_FILE_SIZE = Number(import.meta.env.VITE_MAX_FILE_SIZE) || 50
+
 
 export const SCAN_TYPES = [
   { value: 'T1', label: 'T1-weighted' },
