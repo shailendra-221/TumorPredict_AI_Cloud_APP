@@ -5,7 +5,7 @@ import { uploadMRI, reset } from '../../redux/slices/mriSlice'
 import { getPatients } from '../../redux/slices/patientSlice'
 import { toast } from 'react-toastify'
 import { Upload, FileImage, X, CheckCircle } from 'lucide-react'
-import { SCAN_TYPES } from '../../utils/Constants'
+import { SCAN_TYPES } from '../../utils/constants'
 
 const MRIUpload = () => {
   const dispatch = useDispatch()
